@@ -1,0 +1,971 @@
+{
+ "cases": [
+  {
+   "fn": "rolls",
+   "args": [
+    "260",
+    "12"
+   ],
+   "expect": "The 260 banners at 12 banners a roll take 22 rolls, the last roll holding 8 banners."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "260",
+    "30"
+   ],
+   "expect": "The 260 banners at 30 banners a week last 8 full weeks with 20 banners left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "22",
+    "41.25",
+    "260"
+   ],
+   "expect": "The 22 rolls at $41.25 a roll come to $907.50, $3.49 a banner."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "260",
+    "5"
+   ],
+   "expect": "The 260 banners at 5 banners a minute take 52 minutes, 0 hours 52 minutes."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 banner at 1 banner a roll takes 1 roll, the last roll holding 1 banner."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "252",
+    "12"
+   ],
+   "expect": "The 252 banners at 12 banners a roll take 21 rolls, the last roll holding 12 banners."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "1000000",
+    "1000"
+   ],
+   "expect": "The 1000000 banners at 1000 banners a roll take 1000 rolls, the last roll holding 1000 banners."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 banner at 1 banner a week lasts 1 full week with 0 banners left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "240",
+    "30"
+   ],
+   "expect": "The 240 banners at 30 banners a week last 8 full weeks with 0 banners left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1000000",
+    "100000"
+   ],
+   "expect": "The 1000000 banners at 100000 banners a week last 10 full weeks with 0 banners left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1",
+    "0.01",
+    "1"
+   ],
+   "expect": "The 1 roll at $0.01 a roll comes to $0.01, $0.01 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "100000",
+    "999.99",
+    "1000000"
+   ],
+   "expect": "The 100000 rolls at $999.99 a roll come to $99999000.00, $100.00 a banner."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 banner at 1 banner a minute takes 1 minute, 0 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "60",
+    "1"
+   ],
+   "expect": "The 60 banners at 1 banner a minute take 60 minutes, 1 hour 0 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1000000",
+    "100"
+   ],
+   "expect": "The 1000000 banners at 100 banners a minute take 10000 minutes, 166 hours 40 minutes."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "224106",
+    "255"
+   ],
+   "expect": "The 224106 banners at 255 banners a roll take 879 rolls, the last roll holding 216 banners."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "421802",
+    "153"
+   ],
+   "expect": "The 421802 banners at 153 banners a roll take 2757 rolls, the last roll holding 134 banners."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "938396",
+    "321"
+   ],
+   "expect": "The 938396 banners at 321 banners a roll take 2924 rolls, the last roll holding 113 banners."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "504400",
+    "67"
+   ],
+   "expect": "The 504400 banners at 67 banners a roll take 7529 rolls, the last roll holding 24 banners."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "278645",
+    "112"
+   ],
+   "expect": "The 278645 banners at 112 banners a roll take 2488 rolls, the last roll holding 101 banners."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "806746",
+    "707"
+   ],
+   "expect": "The 806746 banners at 707 banners a roll take 1142 rolls, the last roll holding 59 banners."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "760422",
+    "596"
+   ],
+   "expect": "The 760422 banners at 596 banners a roll take 1276 rolls, the last roll holding 522 banners."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "394346",
+    "913"
+   ],
+   "expect": "The 394346 banners at 913 banners a roll take 432 rolls, the last roll holding 843 banners."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "206005",
+    "448"
+   ],
+   "expect": "The 206005 banners at 448 banners a roll take 460 rolls, the last roll holding 373 banners."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "460640",
+    "992"
+   ],
+   "expect": "The 460640 banners at 992 banners a roll take 465 rolls, the last roll holding 352 banners."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "608401",
+    "653"
+   ],
+   "expect": "The 608401 banners at 653 banners a roll take 932 rolls, the last roll holding 458 banners."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "353865",
+    "258"
+   ],
+   "expect": "The 353865 banners at 258 banners a roll take 1372 rolls, the last roll holding 147 banners."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "105141",
+    "616"
+   ],
+   "expect": "The 105141 banners at 616 banners a roll take 171 rolls, the last roll holding 421 banners."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "163678",
+    "405"
+   ],
+   "expect": "The 163678 banners at 405 banners a roll take 405 rolls, the last roll holding 58 banners."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "831703",
+    "312"
+   ],
+   "expect": "The 831703 banners at 312 banners a roll take 2666 rolls, the last roll holding 223 banners."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "121326",
+    "551"
+   ],
+   "expect": "The 121326 banners at 551 banners a roll take 221 rolls, the last roll holding 106 banners."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "879410",
+    "147"
+   ],
+   "expect": "The 879410 banners at 147 banners a roll take 5983 rolls, the last roll holding 56 banners."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "463298",
+    "767"
+   ],
+   "expect": "The 463298 banners at 767 banners a roll take 605 rolls, the last roll holding 30 banners."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "588908",
+    "156"
+   ],
+   "expect": "The 588908 banners at 156 banners a roll take 3776 rolls, the last roll holding 8 banners."
+  },
+  {
+   "fn": "rolls",
+   "args": [
+    "54412",
+    "561"
+   ],
+   "expect": "The 54412 banners at 561 banners a roll take 97 rolls, the last roll holding 556 banners."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "533728",
+    "15116"
+   ],
+   "expect": "The 533728 banners at 15116 banners a week last 35 full weeks with 4668 banners left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "39362",
+    "83628"
+   ],
+   "expect": "The 39362 banners at 83628 banners a week last 0 full weeks with 39362 banners left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "248788",
+    "56579"
+   ],
+   "expect": "The 248788 banners at 56579 banners a week last 4 full weeks with 22472 banners left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "203929",
+    "79937"
+   ],
+   "expect": "The 203929 banners at 79937 banners a week last 2 full weeks with 44055 banners left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "454872",
+    "10488"
+   ],
+   "expect": "The 454872 banners at 10488 banners a week last 43 full weeks with 3888 banners left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "979160",
+    "57488"
+   ],
+   "expect": "The 979160 banners at 57488 banners a week last 17 full weeks with 1864 banners left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "260917",
+    "54897"
+   ],
+   "expect": "The 260917 banners at 54897 banners a week last 4 full weeks with 41329 banners left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "385243",
+    "99257"
+   ],
+   "expect": "The 385243 banners at 99257 banners a week last 3 full weeks with 87472 banners left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "694048",
+    "78980"
+   ],
+   "expect": "The 694048 banners at 78980 banners a week last 8 full weeks with 62208 banners left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "388919",
+    "14320"
+   ],
+   "expect": "The 388919 banners at 14320 banners a week last 27 full weeks with 2279 banners left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "403652",
+    "78140"
+   ],
+   "expect": "The 403652 banners at 78140 banners a week last 5 full weeks with 12952 banners left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "622449",
+    "19397"
+   ],
+   "expect": "The 622449 banners at 19397 banners a week last 32 full weeks with 1745 banners left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "626273",
+    "8505"
+   ],
+   "expect": "The 626273 banners at 8505 banners a week last 73 full weeks with 5408 banners left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "861857",
+    "32625"
+   ],
+   "expect": "The 861857 banners at 32625 banners a week last 26 full weeks with 13607 banners left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "548528",
+    "21991"
+   ],
+   "expect": "The 548528 banners at 21991 banners a week last 24 full weeks with 20744 banners left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "501292",
+    "926"
+   ],
+   "expect": "The 501292 banners at 926 banners a week last 541 full weeks with 326 banners left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "572748",
+    "81762"
+   ],
+   "expect": "The 572748 banners at 81762 banners a week last 7 full weeks with 414 banners left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "855931",
+    "79330"
+   ],
+   "expect": "The 855931 banners at 79330 banners a week last 10 full weeks with 62631 banners left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "620306",
+    "42186"
+   ],
+   "expect": "The 620306 banners at 42186 banners a week last 14 full weeks with 29702 banners left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "556711",
+    "7358"
+   ],
+   "expect": "The 556711 banners at 7358 banners a week last 75 full weeks with 4861 banners left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "83400",
+    "94.76",
+    "128567"
+   ],
+   "expect": "The 83400 rolls at $94.76 a roll come to $7902984.00, $61.47 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "47469",
+    "521.83",
+    "716061"
+   ],
+   "expect": "The 47469 rolls at $521.83 a roll come to $24770748.27, $34.59 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "48443",
+    "85.44",
+    "588063"
+   ],
+   "expect": "The 48443 rolls at $85.44 a roll come to $4138969.92, $7.04 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "66496",
+    "86.93",
+    "494665"
+   ],
+   "expect": "The 66496 rolls at $86.93 a roll come to $5780497.28, $11.69 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "69773",
+    "825.62",
+    "97051"
+   ],
+   "expect": "The 69773 rolls at $825.62 a roll come to $57605984.26, $593.56 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "63321",
+    "356.75",
+    "735516"
+   ],
+   "expect": "The 63321 rolls at $356.75 a roll come to $22589766.75, $30.71 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "73587",
+    "251.67",
+    "46924"
+   ],
+   "expect": "The 73587 rolls at $251.67 a roll come to $18519640.29, $394.67 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "81370",
+    "462.18",
+    "300138"
+   ],
+   "expect": "The 81370 rolls at $462.18 a roll come to $37607586.60, $125.30 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "57036",
+    "225.98",
+    "467403"
+   ],
+   "expect": "The 57036 rolls at $225.98 a roll come to $12888995.28, $27.58 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "13641",
+    "566.61",
+    "777074"
+   ],
+   "expect": "The 13641 rolls at $566.61 a roll come to $7729127.01, $9.95 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "67491",
+    "645.1",
+    "298884"
+   ],
+   "expect": "The 67491 rolls at $645.10 a roll come to $43538444.10, $145.67 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "51609",
+    "281.54",
+    "424652"
+   ],
+   "expect": "The 51609 rolls at $281.54 a roll come to $14529997.86, $34.22 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "72999",
+    "393.72",
+    "990150"
+   ],
+   "expect": "The 72999 rolls at $393.72 a roll come to $28741166.28, $29.03 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "71250",
+    "214.77",
+    "710037"
+   ],
+   "expect": "The 71250 rolls at $214.77 a roll come to $15302362.50, $21.55 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "98899",
+    "240.05",
+    "684014"
+   ],
+   "expect": "The 98899 rolls at $240.05 a roll come to $23740704.95, $34.71 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "46361",
+    "498.44",
+    "216847"
+   ],
+   "expect": "The 46361 rolls at $498.44 a roll come to $23108176.84, $106.56 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "75671",
+    "397.67",
+    "456695"
+   ],
+   "expect": "The 75671 rolls at $397.67 a roll come to $30092086.57, $65.89 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "11187",
+    "278.26",
+    "307777"
+   ],
+   "expect": "The 11187 rolls at $278.26 a roll come to $3112894.62, $10.11 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "85779",
+    "824.1",
+    "992224"
+   ],
+   "expect": "The 85779 rolls at $824.10 a roll come to $70690473.90, $71.24 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "59764",
+    "258.16",
+    "534096"
+   ],
+   "expect": "The 59764 rolls at $258.16 a roll come to $15428674.24, $28.89 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "79311",
+    "645.28",
+    "836482"
+   ],
+   "expect": "The 79311 rolls at $645.28 a roll come to $51177802.08, $61.18 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "10346",
+    "392.79",
+    "295406"
+   ],
+   "expect": "The 10346 rolls at $392.79 a roll come to $4063805.34, $13.76 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "87992",
+    "397.66",
+    "874567"
+   ],
+   "expect": "The 87992 rolls at $397.66 a roll come to $34990898.72, $40.01 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "22494",
+    "370.11",
+    "863095"
+   ],
+   "expect": "The 22494 rolls at $370.11 a roll come to $8325254.34, $9.65 a banner."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "83053",
+    "285.13",
+    "189749"
+   ],
+   "expect": "The 83053 rolls at $285.13 a roll come to $23680901.89, $124.80 a banner."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "490790",
+    "20"
+   ],
+   "expect": "The 490790 banners at 20 banners a minute take 24540 minutes, 409 hours 0 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "93997",
+    "49"
+   ],
+   "expect": "The 93997 banners at 49 banners a minute take 1919 minutes, 31 hours 59 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "615389",
+    "53"
+   ],
+   "expect": "The 615389 banners at 53 banners a minute take 11612 minutes, 193 hours 32 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "527910",
+    "1"
+   ],
+   "expect": "The 527910 banners at 1 banner a minute take 527910 minutes, 8798 hours 30 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "822494",
+    "37"
+   ],
+   "expect": "The 822494 banners at 37 banners a minute take 22230 minutes, 370 hours 30 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "371168",
+    "13"
+   ],
+   "expect": "The 371168 banners at 13 banners a minute take 28552 minutes, 475 hours 52 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "708844",
+    "22"
+   ],
+   "expect": "The 708844 banners at 22 banners a minute take 32221 minutes, 537 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "551714",
+    "41"
+   ],
+   "expect": "The 551714 banners at 41 banners a minute take 13457 minutes, 224 hours 17 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "882596",
+    "21"
+   ],
+   "expect": "The 882596 banners at 21 banners a minute take 42029 minutes, 700 hours 29 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "540023",
+    "65"
+   ],
+   "expect": "The 540023 banners at 65 banners a minute take 8309 minutes, 138 hours 29 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "480556",
+    "4"
+   ],
+   "expect": "The 480556 banners at 4 banners a minute take 120139 minutes, 2002 hours 19 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "999831",
+    "1"
+   ],
+   "expect": "The 999831 banners at 1 banner a minute take 999831 minutes, 16663 hours 51 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "420175",
+    "21"
+   ],
+   "expect": "The 420175 banners at 21 banners a minute take 20009 minutes, 333 hours 29 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "941043",
+    "68"
+   ],
+   "expect": "The 941043 banners at 68 banners a minute take 13839 minutes, 230 hours 39 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "552795",
+    "28"
+   ],
+   "expect": "The 552795 banners at 28 banners a minute take 19743 minutes, 329 hours 3 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "506360",
+    "66"
+   ],
+   "expect": "The 506360 banners at 66 banners a minute take 7673 minutes, 127 hours 53 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "18147",
+    "93"
+   ],
+   "expect": "The 18147 banners at 93 banners a minute take 196 minutes, 3 hours 16 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "295248",
+    "94"
+   ],
+   "expect": "The 295248 banners at 94 banners a minute take 3141 minutes, 52 hours 21 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "188845",
+    "17"
+   ],
+   "expect": "The 188845 banners at 17 banners a minute take 11109 minutes, 185 hours 9 minutes."
+  }
+ ],
+ "errors": [
+  [
+   "rolls",
+   [
+    "0",
+    "12"
+   ]
+  ],
+  [
+   "rolls",
+   [
+    "1000001",
+    "12"
+   ]
+  ],
+  [
+   "rolls",
+   [
+    "2.5",
+    "12"
+   ]
+  ],
+  [
+   "rolls",
+   [
+    "260",
+    "0"
+   ]
+  ],
+  [
+   "rolls",
+   [
+    "260",
+    "1001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "0",
+    "30"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "260",
+    "0"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "260",
+    "100001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "260",
+    "1.5"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "1000001",
+    "30"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "41.25",
+    "260"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "100001",
+    "41.25",
+    "260"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "22",
+    "0",
+    "260"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "22",
+    "41.255",
+    "260"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "22",
+    "41.25",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "0",
+    "5"
+   ]
+  ],
+  [
+   "time",
+   [
+    "260",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "260",
+    "101"
+   ]
+  ],
+  [
+   "time",
+   [
+    "260",
+    "6.5"
+   ]
+  ],
+  [
+   "time",
+   [
+    "1000001",
+    "5"
+   ]
+  ]
+ ]
+}
